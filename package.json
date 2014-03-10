@@ -1,0 +1,23 @@
+{
+  "name": "coininfo",
+  "version": "0.0.1",
+  "description": "JavaScript component for crypto currency specific information.",
+  "keywords": [
+    "cryptography",
+    "crypto",
+    "coin",
+    "bitcoin",
+    "litecoin",
+    "elliptical",
+    "curve"
+  ],
+  "devDependencies": {
+    "mocha": "1.*",
+    "terst": "~0.1.0"
+  },
+  "repository": {
+    "url": "https://github.com/cryptocoinjs/coininfo",
+    "type": "git"
+  },
+  "main": "./lib/coininfo.js"
+}

@@ -1,6 +1,6 @@
 {
   "name": "coininfo",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "JavaScript component for crypto currency specific information.",
   "keywords": [
     "cryptography",

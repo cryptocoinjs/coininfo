@@ -18,6 +18,7 @@ describe('+ coininfo()', function() {
   describe('> when does not have bip32', function() {
     it('should return null', function() {
       var v = ci('PPC').versions.bip32
+      assert(!v)
     })
   })
 })

@@ -2,6 +2,7 @@
 -------------------
 * removed backwards compatibility code, use npm versions instead [ralphtheninja](https://github.com/cryptocoinjs/coininfo/pull/3)
 * removed semicolons per http://cryptocoinjs.com/about/contributing/#semicolons
+* added `PPC` and `URO` support: [#4](https://github.com/cryptocoinjs/coininfo/issues/4), [#6](https://github.com/cryptocoinjs/coininfo/pull/6)
 
 0.1.0 / 2014-04-14
 ------------------

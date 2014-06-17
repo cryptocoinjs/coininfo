@@ -16,7 +16,8 @@ Usage
 
 ```js
 var coininfo = require('coininfo');
-console.dir(coininfo('LTC')) // => { versions: { public: 48, private: 176, scripthash: 5} }
+console.dir(coininfo('LTC'))
+// => { versions: { public: 48, private: 176, scripthash: 5} }
 ```
 
 Useful to use in conjunction with [coinkey](https://github.com/cryptocoinjs/coinkey) and [coinstring](https://github.com/cryptocoinjs/coinstring).

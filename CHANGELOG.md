@@ -1,3 +1,7 @@
+0.2.1 / 2014-08-13
+------------------
+- added [RDD](https://github.com/cryptocoinjs/coininfo/pull/7) 
+
 0.2.0  / 2014-06-16
 -------------------
 * removed backwards compatibility code, use npm versions instead [ralphtheninja](https://github.com/cryptocoinjs/coininfo/pull/3)

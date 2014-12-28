@@ -1,3 +1,7 @@
+0.2.3 / 2014-12-28
+------------------
+- added BlackCoin
+
 0.2.2 / 2014-10-26
 ------------------
 - added Gamerscoin https://github.com/cryptocoinjs/coininfo/pull/10

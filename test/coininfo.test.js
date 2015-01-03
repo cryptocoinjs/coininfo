@@ -9,7 +9,8 @@ describe('+ coininfo()', function() {
       'btc', 'btc-test',
       'doge', 'doge-test',
       'gmc',
-      'ltc', 'ltc-test'
+      'ltc', 'ltc-test',
+      'rdd', 'rdd-test'
     ]
 
     coins.forEach(function(c) {

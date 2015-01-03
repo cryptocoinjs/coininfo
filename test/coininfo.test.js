@@ -3,7 +3,18 @@ var ci = require('../')
 
 
 describe('+ coininfo()', function() {
+  describe('iterate all coins', function() {
+    it('should return valid data', function() {
+      var coins = [
+        'bc',
+        'btc', 'btc-test',
+      ]
 
+      coins.forEach(function(c) {
+        assert(ci(c).versions.scripthash)
+      })
+    })
+  })
 
   describe('versions', function() {
     it('should return the version', function() {

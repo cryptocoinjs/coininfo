@@ -4,14 +4,15 @@ var ci = require('../')
 
 describe('+ coininfo()', function() {
   describe('iterate all coins', function() {
-    it('should return valid data', function() {
-      var coins = [
-        'bc',
-        'btc', 'btc-test',
-        'doge', 'doge-test'
-      ]
+    var coins = [
+      'bc',
+      'btc', 'btc-test',
+      'doge', 'doge-test',
+      'gmc'
+    ]
 
-      coins.forEach(function(c) {
+    coins.forEach(function(c) {
+      it('should return valid data for ' + c, function() {
         assert(ci(c).versions.scripthash)
       })
     })

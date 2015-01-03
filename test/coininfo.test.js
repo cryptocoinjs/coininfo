@@ -5,7 +5,7 @@ var ci = require('../')
 describe('+ coininfo()', function() {
   describe('iterate all coins', function() {
     var coins = [
-      'bc',
+      'blk',
       'btc', 'btc-test',
       'doge', 'doge-test',
       'gmc',

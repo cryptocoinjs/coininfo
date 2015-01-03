@@ -8,6 +8,7 @@ describe('+ coininfo()', function() {
       var coins = [
         'bc',
         'btc', 'btc-test',
+        'doge', 'doge-test'
       ]
 
       coins.forEach(function(c) {

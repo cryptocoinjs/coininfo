@@ -10,6 +10,7 @@ describe('+ coininfo()', function() {
       'doge', 'doge-test',
       'gmc',
       'ltc', 'ltc-test',
+      'ppc',
       'rdd', 'rdd-test',
       'uro', 'uro-test'
     ]

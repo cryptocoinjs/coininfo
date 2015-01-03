@@ -1,3 +1,7 @@
+0.3.0 / 2015-01-03
+------------------
+- added more information like network information
+
 0.2.3 / 2014-12-28
 ------------------
 - added BlackCoin

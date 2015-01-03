@@ -1,6 +1,6 @@
 {
   "name": "coininfo",
-  "version": "0.2.3",
+  "version": "0.3.0",
   "description": "JavaScript component for crypto currency specific information.",
   "keywords": [
     "cryptography",
@@ -9,7 +9,10 @@
     "bitcoin",
     "litecoin",
     "elliptical",
-    "curve"
+    "curve",
+    "dogecoin",
+    "blackcoin",
+    "namecoin"
   ],
   "devDependencies": {
     "mocha": "1.*"

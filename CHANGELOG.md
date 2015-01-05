@@ -1,3 +1,7 @@
+0.3.1 / 2015-01-05
+------------------
+- bugfix for browserify
+
 0.3.0 / 2015-01-03
 ------------------
 - added more information like network information

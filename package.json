@@ -15,11 +15,16 @@
     "namecoin"
   ],
   "devDependencies": {
-    "mocha": "1.*"
+    "mocha": "1.*",
+    "mochify": "^2.1.1"
   },
   "repository": {
     "url": "https://github.com/cryptocoinjs/coininfo",
     "type": "git"
   },
-  "main": "./lib/coininfo.js"
+  "main": "./lib/coininfo.js",
+  "scripts": {
+    "test": "mocha",
+    "browser-test": "mochify  --wd -R spec"
+  }
 }

@@ -1,3 +1,10 @@
+0.4.0 / 2015-04-21
+------------------
+- added missing formal names for some coins
+- added support for full coin name passed into `coininfo()`, i.e. can do `coininfo('BTC')` or `coininfo('bitcoin')`
+- access coin info via property
+- added DASH
+
 0.3.1 / 2015-01-05
 ------------------
 - bugfix for browserify
@@ -16,7 +23,7 @@
 
 0.2.1 / 2014-08-13
 ------------------
-- added [RDD](https://github.com/cryptocoinjs/coininfo/pull/7) 
+- added [RDD](https://github.com/cryptocoinjs/coininfo/pull/7)
 
 0.2.0  / 2014-06-16
 -------------------

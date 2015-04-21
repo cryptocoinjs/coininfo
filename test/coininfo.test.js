@@ -58,4 +58,10 @@ describe('+ coininfo()', function () {
       assert.equal(info, null)
     })
   })
+
+  describe('> when accessing through property', function () {
+    var bitcoin = ci.bitcoin
+    assert.equal(bitcoin.main.versions.public, 0)
+    assert.equal(bitcoin.test.versions.public, 0x6f)
+  })
 })

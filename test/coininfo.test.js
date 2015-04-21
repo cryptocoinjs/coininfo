@@ -44,6 +44,12 @@ describe('+ coininfo()', function () {
         assert(!v)
       })
     })
+
+    describe('> when full formal coin name is passed', function () {
+      it('should return coin info', function () {
+        assert(ci('bitcoin'))
+      })
+    })
   })
 
   describe('> when coin not found', function () {

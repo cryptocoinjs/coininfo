@@ -1,3 +1,7 @@
+0.5.0 / 2015-05-11
+------------------
+- added bip44 constants from http://doc.satoshilabs.com/slips/slip-0044.html
+
 0.4.0 / 2015-04-21
 ------------------
 - added missing formal names for some coins

@@ -1,3 +1,7 @@
+0.6.0 / 2015-01-07
+------------------
+- fixed DASH info, See: https://github.com/cryptocoinjs/coininfo/pull/13
+
 0.5.0 / 2015-05-11
 ------------------
 - added bip44 constants from http://doc.satoshilabs.com/slips/slip-0044.html
@@ -48,4 +52,3 @@
 0.0.1 / 2014-03-10
 ------------------
 * initial release
-

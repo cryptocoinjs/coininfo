@@ -69,4 +69,14 @@ describe('+ coininfo()', function () {
       assert.strictEqual(bjsBitcoin.wif, 0x80)
     })
   })
+
+  describe('toBitcore()', function () {
+    it('should return a compatible Bitpay bitcore', function () {
+      var bitcoin = ci.bitcoin.main
+      var bjsBitcore = bitcoin.toBitcore()
+      assert.strictEqual(bjsBitcore.privatekey, 0x80)
+      assert.strictEqual(bjsBitcore.networkMagic, 0xf9beb4d9)
+      assert.ok(bjsBitcore.dnsSeeds.length > 0)
+    })
+  })
 })

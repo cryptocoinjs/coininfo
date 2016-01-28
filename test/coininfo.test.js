@@ -9,7 +9,6 @@ describe('+ coininfo()', function () {
       'blk',
       'btc', 'btc-test',
       'doge', 'doge-test',
-      'gmc',
       'ltc', 'ltc-test',
       'nmc',
       'ppc',

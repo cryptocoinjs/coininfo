@@ -9,7 +9,7 @@
     "coin",
     "bitcoin",
     "litecoin",
-    "elliptical",
+    "elliptic",
     "curve",
     "dogecoin",
     "blackcoin",
@@ -17,9 +17,8 @@
     "dash"
   ],
   "devDependencies": {
-    "mocha": "1.*",
-    "mochify": "^2.1.1",
-    "standard": "3.x"
+    "mocha": "^2.4.4",
+    "standard": "5.x"
   },
   "repository": {
     "url": "https://github.com/cryptocoinjs/coininfo",
@@ -27,7 +26,9 @@
   },
   "main": "./lib/coininfo.js",
   "scripts": {
-    "test": "standard && mocha",
-    "browser-test": "mochify  --wd -R spec"
+    "test": "standard && mocha"
+  },
+  "dependencies": {
+    "object-assign": "^4.0.1"
   }
 }

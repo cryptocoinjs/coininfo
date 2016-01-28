@@ -3,6 +3,8 @@
 - deleted `mue`
 - deleted 'uro'
 - deleted `gmc`
+- added `toBitcoinJS()` for [`bitcoinjs-lib`](https://github.com/bitcoinjs/bitcoinjs-lib) support
+- 
 
 0.6.0 / 2015-01-07
 ------------------

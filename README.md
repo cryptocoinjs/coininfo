@@ -1,11 +1,8 @@
 coininfo
 ========
 
-JavaScript component for crypto currency specific information such as version numbers, DNS seeds, etc. Works in Node.js and the browser.
-
-**Official documentation:**
-
-http://cryptocoinjs.com/modules/currency/coininfo/
+JavaScript component for crypto currency specific information such as version numbers, DNS seeds, etc.
+Works in Node.js and the browser.
 
 
 Installation
@@ -19,6 +16,7 @@ Usage
 
 ```js
 var coininfo = require('coininfo')
+
 console.dir(coininfo('LTC')) //use LTC-TEST for testnet
 // =>
 /*
@@ -40,6 +38,24 @@ var litecoinTest = coininfo.litecoin.test
 Useful to use in conjunction with [coinkey](https://github.com/cryptocoinjs/coinkey) and [coinstring](https://github.com/cryptocoinjs/coinstring).
 
 
+Want to Use With Bitcore or bitconjs-lib?
+-----------------------------------------
+
+**bitcoinjs-lib example:**
+
+```js
+var coininfo = require('coininfo')
+var bitcoin = coininfo.bitcoin.main
+var bitcoinBitcoinJSLib = bitcoin.toBitcoinJS()
+```
+
+**Bitcore example:**
+
+```js
+
+```
+
+
 Pull requests?
 --------------
 
@@ -52,7 +68,3 @@ License
 -------
 
 MIT
-
-
-
-

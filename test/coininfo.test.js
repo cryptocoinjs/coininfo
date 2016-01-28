@@ -61,4 +61,12 @@ describe('+ coininfo()', function () {
     assert.equal(bitcoin.main.versions.public, 0)
     assert.equal(bitcoin.test.versions.public, 0x6f)
   })
+
+  describe('toBitcoinJS()', function () {
+    it('should return a compatible bitcoinjs-lib', function () {
+      var bitcoin = ci.bitcoin.main
+      var bjsBitcoin = bitcoin.toBitcoinJS()
+      assert.strictEqual(bjsBitcoin.wif, 0x80)
+    })
+  })
 })

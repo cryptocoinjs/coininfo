@@ -5,6 +5,7 @@
 - deleted `gmc`
 - added `toBitcoinJS()` for [`bitcoinjs-lib`](https://github.com/bitcoinjs/bitcoinjs-lib) support
 - added `toBitcore()` for Bitpay's bitcore suppport
+- add DOGE / LTC seeds / port
 
 0.6.0 / 2015-01-07
 ------------------

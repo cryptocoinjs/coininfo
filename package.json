@@ -2,6 +2,7 @@
   "name": "coininfo",
   "version": "0.6.0",
   "description": "JavaScript component for crypto currency specific information.",
+  "license": "MIT",
   "keywords": [
     "cryptography",
     "crypto",

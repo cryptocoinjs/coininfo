@@ -1,3 +1,9 @@
+0.7.0 / 2015-01-27
+------------------
+- deleted `mue`
+- deleted 'uro'
+- 
+
 0.6.0 / 2015-01-07
 ------------------
 - fixed DASH info, See: https://github.com/cryptocoinjs/coininfo/pull/13

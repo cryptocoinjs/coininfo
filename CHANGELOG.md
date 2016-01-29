@@ -1,4 +1,10 @@
-0.7.0 / 2015-01-27
+0.8.0 / 2016-01-29
+------------------
+- added `nubits`
+- added bitcoin `regtest`
+- fixed bitcoin rpc ports
+
+0.7.0 / 2016-01-27
 ------------------
 - deleted `mue`
 - deleted 'uro'
@@ -7,7 +13,7 @@
 - added `toBitcore()` for Bitpay's bitcore suppport
 - add DOGE / LTC seeds / port
 
-0.6.0 / 2015-01-07
+0.6.0 / 2016-01-07
 ------------------
 - fixed DASH info, See: https://github.com/cryptocoinjs/coininfo/pull/13
 

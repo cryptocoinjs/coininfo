@@ -52,7 +52,9 @@ var bitcoinBitcoinJSLib = bitcoin.toBitcoinJS()
 **Bitcore example:**
 
 ```js
-
+var coininfo = require('coininfo')
+var bitcoin = coininfo.bitcoin.main
+var bitcoinBitcoreLib = bitcoin.toBitcore()
 ```
 
 

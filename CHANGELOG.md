@@ -1,3 +1,7 @@
+0.8.1 / 2016-02-04
+------------------
+- fix for use with Node v0.10. See: https://github.com/cryptocoinjs/coininfo/pull/17
+
 0.8.0 / 2016-01-29
 ------------------
 - added `nubits`

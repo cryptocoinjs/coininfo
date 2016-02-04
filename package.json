@@ -26,7 +26,9 @@
   },
   "main": "./lib/coininfo.js",
   "scripts": {
-    "test": "standard && mocha"
+    "lint": "standard",
+    "test": "npm run lint && npm run unit",
+    "unit": "mocha"
   },
   "dependencies": {
     "object-assign": "^4.0.1"

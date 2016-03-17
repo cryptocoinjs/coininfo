@@ -1,3 +1,7 @@
+0.8.2 / 2016-03-17
+------------------
+- added Dash protocol magic
+
 0.8.1 / 2016-02-04
 ------------------
 - fix for use with Node v0.10. See: https://github.com/cryptocoinjs/coininfo/pull/17

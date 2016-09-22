@@ -1,3 +1,7 @@
+0.9.0 / 2016-09-22
+------------------
+- added `hashGenesisBlock`
+
 0.8.2 / 2016-03-17
 ------------------
 - added Dash protocol magic

@@ -1,3 +1,7 @@
+0.9.1 / 2017-03-23
+-------------------
+- update Dash constants
+
 0.9.0 / 2016-09-22
 ------------------
 - added `hashGenesisBlock`

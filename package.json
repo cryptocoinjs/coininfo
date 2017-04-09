@@ -18,7 +18,7 @@
   ],
   "devDependencies": {
     "mocha": "^2.4.4",
-    "standard": "5.x"
+    "standard": "^9.x"
   },
   "repository": {
     "url": "https://github.com/cryptocoinjs/coininfo",

@@ -1,3 +1,8 @@
+0.10.0 / 2017-04-09
+-------------------
+- add DCR
+- move from Mocha to Tape
+
 0.9.1 / 2017-03-23
 -------------------
 - update Dash constants

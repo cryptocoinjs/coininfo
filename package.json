@@ -17,8 +17,8 @@
     "dash"
   ],
   "devDependencies": {
-    "mocha": "^2.4.4",
-    "standard": "^9.x"
+    "standard": "^9.x",
+    "tape": "^4.6.3"
   },
   "repository": {
     "url": "https://github.com/cryptocoinjs/coininfo",
@@ -28,7 +28,7 @@
   "scripts": {
     "lint": "standard",
     "test": "npm run lint && npm run unit",
-    "unit": "mocha"
+    "unit": "tape test/**/*.js"
   },
   "dependencies": {
     "object-assign": "^4.0.1"

@@ -14,7 +14,8 @@
     "dogecoin",
     "blackcoin",
     "namecoin",
-    "dash"
+    "dash",
+    "monacoin"
   ],
   "devDependencies": {
     "standard": "^9.x",

@@ -15,11 +15,12 @@
     "blackcoin",
     "namecoin",
     "dash",
-    "monacoin"
+    "monacoin",
+    "zcash"
   ],
   "devDependencies": {
-    "standard": "^9.x",
-    "tape": "^4.6.3"
+    "standard": "*",
+    "tape": "^4.8.0"
   },
   "repository": {
     "url": "https://github.com/cryptocoinjs/coininfo",
@@ -35,6 +36,6 @@
     "unit": "tape test/**/*.js"
   },
   "dependencies": {
-    "object-assign": "^4.0.1"
+    "safe-buffer": "^5.1.1"
   }
 }

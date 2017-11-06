@@ -18,8 +18,8 @@
     "monacoin"
   ],
   "devDependencies": {
-    "standard": "^9.x",
-    "tape": "^4.6.3"
+    "standard": "*",
+    "tape": "^4.8.0"
   },
   "repository": {
     "url": "https://github.com/cryptocoinjs/coininfo",
@@ -35,6 +35,6 @@
     "unit": "tape test/**/*.js"
   },
   "dependencies": {
-    "object-assign": "^4.0.1"
+    "object-assign": "^4.1.1"
   }
 }

@@ -15,7 +15,8 @@
     "blackcoin",
     "namecoin",
     "dash",
-    "monacoin"
+    "monacoin",
+    "zcash"
   ],
   "devDependencies": {
     "standard": "*",

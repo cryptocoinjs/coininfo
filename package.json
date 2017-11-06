@@ -36,6 +36,7 @@
     "unit": "tape test/**/*.js"
   },
   "dependencies": {
-    "object-assign": "^4.1.1"
+    "object-assign": "^4.1.1",
+    "safe-buffer": "^5.1.1"
   }
 }

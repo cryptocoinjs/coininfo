@@ -16,7 +16,8 @@
     "namecoin",
     "dash",
     "monacoin",
-    "zcash"
+    "zcash",
+    "vertcoin"
   ],
   "devDependencies": {
     "standard": "*",

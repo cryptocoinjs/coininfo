@@ -18,7 +18,8 @@
     "dash",
     "monacoin",
     "zcash",
-    "vertcoin"
+    "vertcoin",
+    "qtum"
   ],
   "devDependencies": {
     "standard": "*",

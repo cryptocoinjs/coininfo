@@ -1,3 +1,67 @@
+3.1.0 / 2018-01-10
+------------------
+- add QTUM
+
+3.0.0 / 2018-01-10
+------------------
+- fix monacoin WIF constant
+
+2.2.0 / 2017-12-29
+------------------
+- add BTG support
+
+2.1.0 / 2017-12-28
+------------------
+- add VTC support
+
+1.0.0 / 2017-04-23
+-------------------
+- change LTC P2SH
+
+0.10.0 / 2017-04-09
+-------------------
+- add DCR
+- move from Mocha to Tape
+
+0.9.1 / 2017-03-23
+-------------------
+- update Dash constants
+
+0.9.0 / 2016-09-22
+------------------
+- added `hashGenesisBlock`
+
+0.8.2 / 2016-03-17
+------------------
+- added Dash protocol magic
+
+0.8.1 / 2016-02-04
+------------------
+- fix for use with Node v0.10. See: https://github.com/cryptocoinjs/coininfo/pull/17
+
+0.8.0 / 2016-01-29
+------------------
+- added `nubits`
+- added bitcoin `regtest`
+- fixed bitcoin rpc ports
+
+0.7.0 / 2016-01-27
+------------------
+- deleted `mue`
+- deleted 'uro'
+- deleted `gmc`
+- added `toBitcoinJS()` for [`bitcoinjs-lib`](https://github.com/bitcoinjs/bitcoinjs-lib) support
+- added `toBitcore()` for Bitpay's bitcore suppport
+- add DOGE / LTC seeds / port
+
+0.6.0 / 2016-01-07
+------------------
+- fixed DASH info, See: https://github.com/cryptocoinjs/coininfo/pull/13
+
+0.5.0 / 2015-05-11
+------------------
+- added bip44 constants from http://doc.satoshilabs.com/slips/slip-0044.html
+
 0.4.0 / 2015-04-21
 ------------------
 - added missing formal names for some coins
@@ -44,4 +108,3 @@
 0.0.1 / 2014-03-10
 ------------------
 * initial release
-

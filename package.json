@@ -1,32 +1,45 @@
 {
   "name": "coininfo",
-  "version": "0.4.0",
+  "version": "3.1.0",
   "description": "JavaScript component for crypto currency specific information.",
+  "license": "MIT",
   "keywords": [
+    "axe",
     "cryptography",
     "crypto",
     "coin",
     "bitcoin",
+    "bitcoin gold",
     "litecoin",
-    "elliptical",
+    "elliptic",
     "curve",
     "dogecoin",
     "blackcoin",
     "namecoin",
-    "dash"
+    "dash",
+    "monacoin",
+    "zcash",
+    "vertcoin",
+    "qtum"
   ],
   "devDependencies": {
-    "mocha": "1.*",
-    "mochify": "^2.1.1",
-    "standard": "3.x"
+    "standard": "*",
+    "tape": "^4.8.0"
   },
   "repository": {
     "url": "https://github.com/cryptocoinjs/coininfo",
     "type": "git"
   },
   "main": "./lib/coininfo.js",
+  "files": [
+    "lib"
+  ],
   "scripts": {
-    "test": "standard && mocha",
-    "browser-test": "mochify  --wd -R spec"
+    "lint": "standard",
+    "test": "npm run lint && npm run unit",
+    "unit": "tape test/**/*.js"
+  },
+  "dependencies": {
+    "safe-buffer": "^5.1.1"
   }
 }

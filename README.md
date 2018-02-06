@@ -10,7 +10,7 @@ Works in Node.js and the browser.
 Installation
 ------------
 
-    npm i --save coininfo
+    npm i coininfo
 
 
 Usage

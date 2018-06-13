@@ -4,6 +4,7 @@ var ci = require('../')
 test('+ coininfo()', function (t) {
   t.test('iterate all coins', function (t) {
     var coins = [
+      'bch',
       'blk',
       'btc', 'btc-test',
       'doge', 'doge-test',

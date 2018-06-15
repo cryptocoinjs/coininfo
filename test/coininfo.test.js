@@ -8,6 +8,7 @@ test('+ coininfo()', function (t) {
       'btc', 'btc-test',
       'doge', 'doge-test',
       'ltc', 'ltc-test',
+      'via', 'via-test',
       'nbt',
       'nmc',
       'ppc',

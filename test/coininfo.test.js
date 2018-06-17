@@ -13,7 +13,7 @@ test('+ coininfo()', function (t) {
       'ppc',
       'rdd', 'rdd-test',
       'mona', 'mona-test',
-      'mue'      
+      'mue'
     ]
 
     coins.forEach(function (c) {

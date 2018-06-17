@@ -10,6 +10,7 @@ test('+ coininfo()', function (t) {
       'ltc', 'ltc-test',
       'nbt',
       'nmc',
+      'mue',
       'ppc',
       'rdd', 'rdd-test',
       'mona', 'mona-test'

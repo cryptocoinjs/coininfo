@@ -1,3 +1,8 @@
+4.0.1 / 2018-06-22
+------------------
+
+- add BIP32 data for Zcash
+
 4.0.0 / 2018-03-05
 ------------------
 - change BIP44 constant for QTUM

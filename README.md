@@ -1,7 +1,7 @@
 coininfo
 ========
 
-[![build status](https://api.travis-ci.org/cryptocoinjs/coininfo.svg)](http://travis-ci.org/cryptocoinjs/coininfo)
+[![build status](https://api.travis-ci.org/sotblad/coininfo.svg)](http://travis-ci.org/sotblad/coininfo)
 
 JavaScript component for crypto currency specific information such as version numbers, DNS seeds, etc.
 Works in Node.js and the browser.

@@ -41,7 +41,8 @@ test('+ coininfo()', function (t) {
 
     t.test('> when does not have bip32', function (t) {
       var v = ci('PPC').versions.bip32
-      t.notok(v, 'should return null')
+      t.equal(v.public, 0x0488b21e)
+      t.equal(v.private, 0x0488ade4)
       t.end()
     })
 

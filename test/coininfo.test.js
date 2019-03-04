@@ -7,6 +7,7 @@ test('+ coininfo()', function (t) {
       'bch',
       'blk',
       'btc', 'btc-test',
+      'city', 'city-test',
       'doge', 'doge-test',
       'ltc', 'ltc-test',
       'via', 'via-test',

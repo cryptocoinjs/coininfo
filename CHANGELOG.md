@@ -1,3 +1,16 @@
+4.4.1 / 2019-04-08
+------------------
+
+- update DNS seed for BTC (#84)
+
+4.4.0 / 2019-02-15
+------------------
+
+- add bip32 for LTC (#64)
+- add field messagePrefix (#65)
+- fix undefined bip32 error (#66)
+- fix Peercoin values (#79)
+
 4.3.0 / 2018-08-15
 ------------------
 

@@ -71,6 +71,7 @@ test('+ coininfo()', function (t) {
     var bitcoin = ci.bitcoin.main
     var bjsBitcoin = bitcoin.toBitcoinJS()
     t.equal(bjsBitcoin.wif, 0x80, 'should return a compatible bitcoinjs-lib')
+    t.equal(bjsBitcoin.bech32, 'bc', 'object has bech32 prefix')
     t.end()
   })
 

@@ -1,3 +1,7 @@
+5.0.0 / 2019-05-28
+
+- Switch Digibyte scripthash version byte. The obsolete `0x03` byte is now `scripthash2`, and the newer `0x3f` (S-addresses) byte is the default.
+
 4.5.0 / 2019-04-30
 ------------------
 

@@ -14,7 +14,8 @@ test('+ coininfo()', function (t) {
       'nmc',
       'ppc',
       'rdd', 'rdd-test',
-      'mona', 'mona-test'
+      'mona', 'mona-test',
+      'rvn', 'rvn-test'
     ]
 
     coins.forEach(function (c) {

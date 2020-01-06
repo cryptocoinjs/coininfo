@@ -40,7 +40,7 @@ var litecoinTest = coininfo.litecoin.test
 Useful to use in conjunction with [coinkey](https://github.com/cryptocoinjs/coinkey) and [coinstring](https://github.com/cryptocoinjs/coinstring).
 
 
-Want to Use With Bitcore or bitconjs-lib?
+Want to Use With Bitcore or bitcoinjs-lib?
 -----------------------------------------
 
 **bitcoinjs-lib example:**

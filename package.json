@@ -21,6 +21,7 @@
     "monacoin",
     "zcash",
     "vertcoin",
+    "feirm",
     "qtum"
   ],
   "devDependencies": {

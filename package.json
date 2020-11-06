@@ -1,5 +1,5 @@
 {
-  "name": "coininfo",
+  "name": "x42-coininfo",
   "version": "5.1.0",
   "description": "JavaScript component for crypto currency specific information.",
   "license": "MIT",
@@ -21,14 +21,15 @@
     "monacoin",
     "zcash",
     "vertcoin",
-    "qtum"
+    "qtum",
+    "x42"
   ],
   "devDependencies": {
     "standard": "*",
-    "tape": "^4.8.0"
+    "tape": "^5.0.1"
   },
   "repository": {
-    "url": "https://github.com/cryptocoinjs/coininfo",
+    "url": "https://github.com/x42protocol/x42-coininfo",
     "type": "git"
   },
   "main": "./lib/coininfo.js",

@@ -7,17 +7,23 @@ JavaScript component for crypto currency specific information such as version nu
 Works in Node.js and the browser.
 
 
+Fork
+----
+
+This library is a fork of the original [coininfo](https://github.com/cryptocoinjs/coininfo) with support added for x42.
+
+
 Installation
 ------------
 
-    npm i coininfo
+    npm i x42-coininfo
 
 
 Usage
 -----
 
 ```js
-var coininfo = require('coininfo')
+var coininfo = require('x42-coininfo')
 
 console.dir(coininfo('LTC')) //use LTC-TEST for testnet
 // =>
@@ -46,7 +52,7 @@ Want to Use With Bitcore or bitcoinjs-lib?
 **bitcoinjs-lib example:**
 
 ```js
-var coininfo = require('coininfo')
+var coininfo = require('x42-coininfo')
 var bitcoin = coininfo.bitcoin.main
 var bitcoinBitcoinJSLib = bitcoin.toBitcoinJS()
 ```
@@ -65,7 +71,7 @@ Pull requests?
 
 Follow the canonical example:
 
-https://github.com/cryptocoinjs/coininfo/blob/master/lib/coins/btc.js
+https://github.com/x42protocol/x42-coininfo/blob/master/lib/coins/x42.js
 
 
 License

@@ -14,6 +14,7 @@ test('+ coininfo()', function (t) {
       'nbt',
       'nmc',
       'ppc',
+      'dnr',
       'rdd', 'rdd-test',
       'mona', 'mona-test',
       'rvn', 'rvn-test',

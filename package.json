@@ -1,5 +1,5 @@
 {
-  "name": "coininfo",
+  "name": "@bcpros/coininfo",
   "version": "5.2.1",
   "description": "JavaScript component for crypto currency specific information.",
   "license": "MIT",
@@ -29,7 +29,7 @@
     "tape": "^4.8.0"
   },
   "repository": {
-    "url": "https://github.com/cryptocoinjs/coininfo",
+    "url": "https://github.com/vince8x/coininfo",
     "type": "git"
   },
   "main": "./lib/coininfo.js",
